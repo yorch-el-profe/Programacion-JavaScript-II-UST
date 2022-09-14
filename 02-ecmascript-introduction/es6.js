@@ -72,7 +72,6 @@ console.log(mergedArray);
 
 
 // Problem: I want to pass indeterminated amount of parameters to a function
-
 function sum(...numbers) {
   let total = 0;
   for (let i = 0; i < numbers.length; i++) {
@@ -85,4 +84,7 @@ function sum(...numbers) {
  * x || y ->     if (x) { return x } else { return y };
  */
 
-console.log(sum(1,2));
+const sum_parameters = [1,2,3,4,5,6,7];
+sum(...sum_parameters); // = sum(1,2,3,5,6,7);
+
+const unique_values = [...set];
