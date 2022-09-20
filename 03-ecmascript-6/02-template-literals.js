@@ -5,6 +5,8 @@
   <h3>We are going to talk about String Literals</h3>
   <h4>address</h4>
  </div>
+
+ '' "" ``
  */
 
 const user = {
@@ -39,5 +41,8 @@ const html2 = `
   <h3>We are going to talk about String Literals</h3>
   <h4>${user.address}</h4>
 </div>`;
+
+// Note: this doesn't work in Node.js, cause there's no document or DOM
+// document.body.innerHTML = html2;
 
 console.log(html2);
