@@ -1,3 +1,8 @@
+/**
+ * Las promesas ayudan a encapsular la ejecución de código asíncrono y controlar
+ * la continuidad del código
+ */
+
 function sayHi(name) {
   const time = Math.round(Math.random() * 500);
 
@@ -12,7 +17,7 @@ function sayHi(name) {
 }
 
 // then() es la continuación DESPUÉS de resolver la promesa
-/*sayHi('Jorge')
+sayHi('Jorge')
   .then(function () {
     return sayHi('Gabriel');
   })
@@ -27,10 +32,9 @@ function sayHi(name) {
   })
   .then(function () {
     sayHi('Oscar');
-  });*/
+  });
 
-  // Versión con async/await
-
+// Versión con async/await
 async function sayHiExecution() {
   console.log('Comenzando saludos....');
 
