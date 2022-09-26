@@ -1,5 +1,5 @@
 module.exports = {
-  entry: 'index.js',
+  entry: './src/index.js',
   output: {
     filename: 'bundle.js'
   },
@@ -16,7 +16,7 @@ module.exports = {
           options: {
             // Incluya el plugin llamado @babel/preset-env
             // Permite utilizar las características de ES2015+
-            presets: ['@babel/preset-env']
+            presets: ['@babel/preset-env'],
           }
         }
       }
