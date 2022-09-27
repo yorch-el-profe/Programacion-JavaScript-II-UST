@@ -1,8 +1,8 @@
 {
-  "name": "02-is-prime",
+  "name": "03-fibonacci",
   "version": "1.0.0",
   "description": "",
-  "main": "is-prime.js",
+  "main": "fibonacci.js",
   "scripts": {
     "test": "jest",
     "test:coverage": "jest --coverage"
