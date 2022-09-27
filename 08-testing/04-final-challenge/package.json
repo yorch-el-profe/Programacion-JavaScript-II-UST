@@ -1,0 +1,16 @@
+{
+  "name": "04-final-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "challenge.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.3"
+  }
+}
