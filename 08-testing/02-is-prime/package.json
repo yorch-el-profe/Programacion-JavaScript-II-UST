@@ -1,0 +1,15 @@
+{
+  "name": "02-is-prime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "is-prime.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.3"
+  }
+}
