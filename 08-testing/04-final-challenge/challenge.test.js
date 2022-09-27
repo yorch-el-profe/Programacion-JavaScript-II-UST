@@ -1,6 +1,10 @@
 const { challenge } = require('./challenge');
 
 describe('Final Challenge', () => {
+  test("Empty sequence returns 0", () => {
+    expect(challenge("")).toBe(0);
+  });
+
   test('Balanced sequence returns 0', () => {
     expect(challenge("()")).toBe(0);
     expect(challenge("()()()()()()()")).toBe(0);
